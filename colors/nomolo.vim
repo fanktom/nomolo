@@ -26,6 +26,9 @@ hi Cursor          ctermfg=bg  ctermbg=50
 hi CursorColumn                ctermbg=50
 hi CursorLine               ctermbg=236   cterm=none
 hi CursorLineNr ctermfg=50               cterm=none
+hi TabLine         ctermbg=235   cterm=none
+hi TabLineFill     ctermbg=235   cterm=none
+hi TabLineSel      ctermbg=81    ctermfg=16
 hi Debug           ctermfg=225               cterm=bold
 hi Define          ctermfg=81
 hi Delimiter       ctermfg=241
