@@ -1,7 +1,7 @@
 " Vim color file
 "
 " Author: Thomas Fankhauser <tommy@system8.io>
-" https://github.com/tfkhsr/nomolo
+" https://github.com/fanktom/nomolo
 "
 " Note: Initially based on the Monokai theme but then drifted far away
 " by Wimer Hazenberg and its darker variant
@@ -15,14 +15,14 @@ endif
 let g:colors_name="nomolo"
 
 " Only 256-color terminal support
-hi Normal       ctermfg=252 ctermbg=234
+hi Normal       ctermfg=252 ctermbg=none
 hi Boolean         ctermfg=141
 hi Character       ctermfg=222
 hi ColorColumn                 ctermbg=236
 hi Comment         ctermfg=59
 hi Conditional     ctermfg=197               cterm=bold
 hi Constant        ctermfg=13               cterm=none
-hi Cursor          ctermfg=bg  ctermbg=50
+hi Cursor          ctermfg=234  ctermbg=50
 hi CursorColumn                ctermbg=50
 hi CursorLine               ctermbg=236   cterm=none
 hi CursorLineNr ctermfg=50               cterm=none
@@ -46,12 +46,12 @@ hi Folded          ctermfg=233 ctermbg=237   cterm=bold
 hi Function        ctermfg=14
 hi Identifier      ctermfg=50               cterm=none
 hi Ignore          ctermfg=244 ctermbg=232
-hi IncSearch       ctermfg=193 ctermbg=bg
+hi IncSearch       ctermfg=193 ctermbg=234
 hi Keyword         ctermfg=9               cterm=bold
 hi Label           ctermfg=50               cterm=none
 hi LineNr          ctermfg=239 ctermbg=235
 hi Macro           ctermfg=193
-hi MatchParen      ctermfg=bg  ctermbg=50 cterm=bold
+hi MatchParen      ctermfg=234  ctermbg=50 cterm=bold
 hi ModeMsg         ctermfg=229
 hi MoreMsg         ctermfg=229
 hi NonText         ctermfg=59
@@ -80,7 +80,7 @@ hi String          ctermfg=228
 hi Structure       ctermfg=81
 hi Tag             ctermfg=9 cterm=bold
 hi Title           ctermfg=203
-hi Todo            ctermfg=231 ctermbg=bg   cterm=bold
+hi Todo            ctermfg=231 ctermbg=234   cterm=bold
 hi Type            ctermfg=81                cterm=none
 hi Typedef         ctermfg=81
 hi Underlined      ctermfg=244               cterm=underline
